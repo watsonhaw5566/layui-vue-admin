@@ -149,13 +149,12 @@
               </lay-col>
             </lay-row>
           </div>
-          <lay-row style="margin-top: 0px" v-if="active < 2">
-            <div style="display: inline-block; width: 120px"></div>
+          <lay-row style="margin-top: 0px; text-align: left" v-if="active < 2">
             <lay-button
               type="primary"
               :style="{
                 marginRight: '15px',
-                marginLeft: active < 1 ? '15px' : '0px'
+                marginLeft: '0px'
               }"
               size="sm"
               @click="next"

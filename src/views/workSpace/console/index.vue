@@ -99,18 +99,20 @@
         <lay-card>
           <template #title> 版本信息 </template>
           <table class="layui-table">
-            <tr>
-              <td>页面模式</td>
-              <td>单页面</td>
-            </tr>
-            <tr>
-              <td>涉及技术</td>
-              <td>vue / layui-vue</td>
-            </tr>
-            <tr>
-              <td>主要特色</td>
-              <td>单页面 / 响应式 / 清爽 / 极简</td>
-            </tr>
+            <tbody>
+              <tr>
+                <td>页面模式</td>
+                <td>单页面</td>
+              </tr>
+              <tr>
+                <td>涉及技术</td>
+                <td>vue / layui-vue</td>
+              </tr>
+              <tr>
+                <td>主要特色</td>
+                <td>单页面 / 响应式 / 清爽 / 极简</td>
+              </tr>
+            </tbody>
           </table>
         </lay-card>
       </lay-col>

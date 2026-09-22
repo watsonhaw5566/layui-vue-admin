@@ -247,7 +247,7 @@ export default defineComponent({
   display: inline-block;
   height: 30px;
   width: 143px;
-  background: url() no-repeat 50%;
+  background: no-repeat 50%;
   background-size: contain;
   cursor: pointer;
 }
